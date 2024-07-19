@@ -1,0 +1,107 @@
+.formulario {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.formulario {
+    justify-content: center;
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgba(0, 0, 0);
+    width: 50%;
+    background-color: #bea925;
+}
+
+label {
+    color: darkblue;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+input,
+
+textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: $font-stack;
+}
+
+body {
+    background-color: $background-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: $container-bg-color;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: $text-color;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: $text-color;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 5px;
+            border: 1px solid $border-color;
+            border-radius: 4px;
+        }
+
+        .radio-group {
+            display: flex;
+            align-items: center;
+
+            input[type="radio"] {
+                margin-right: 5px;
+            }
+
+            label {
+                margin-right: 20px;
+            }
+        }
+    }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: $primary-color;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $primary-color-hover;
+        }
+    }
+}

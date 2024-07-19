@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+
+
+    footer {
+        background-color: #e2a446;
+    }
+}
+
+.header {
+    height: 60vh !important;
+    background: url(../assets/img/Background.png) no-repeat center;
+    background-size: cover;
+}
+

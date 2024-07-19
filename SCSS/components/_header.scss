@@ -1,0 +1,19 @@
+.header {
+    height: 60vh !important;
+    background: url() no-repeat center;
+    background-size: cover;
+
+    .title {
+        margin-bottom: 40px;
+        font-size: 60px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+
+    p {
+        margin-bottom: 40px;
+        font-size: 18px;
+        color: white;
+        padding: 0 100px;    }
+}

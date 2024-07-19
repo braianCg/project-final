@@ -1,0 +1,24 @@
+.container33 {
+    display: grid;
+    
+}
+
+.container33 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 1em;
+    grid-template-columns: minmax(33%, auto);
+    text-align: center;
+}
+
+.container33 .box-1 {
+    padding: 1em;
+}
+
+.container33 .box-1:hover {
+    border: 1px solid #f1c40f;
+}
+
+.title2 {
+    background-color: #f1c40f;
+}
